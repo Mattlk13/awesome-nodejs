@@ -3,6 +3,25 @@
 		<img width="500" src="media/logo.svg" alt="Awesome Node.js">
 	</div>
 	<br>
+	<p>
+		<p>
+			<sup>
+				<a href="https://github.com/sponsors/sindresorhus">My open source work is supported by the community</a>
+			</sup>
+		</p>
+		<sup>Special thanks to:</sup>
+		<br>
+		<br>
+		<a href="https://standardresume.co/tech">
+			<img src="https://sindresorhus.com/assets/thanks/standard-resume-logo.svg" width="160"/>
+		</a>
+	</p>
+	<br>
+	<br>
+	<br>
+	<h3>
+		<a href="https://blog.sindresorhus.com/get-ready-for-esm-aa53530b3f77">Node.js package maintainers → Get ready for ESM!</a>
+	</h3>
 	<br>
 	<br>
 	<a href="https://awesome.re">
@@ -17,6 +36,8 @@
 	</p>
 	<br>
 </div>
+
+**You can now [discuss Node.js and ask questions](https://github.com/sindresorhus/awesome-nodejs/discussions) right in this repo.**
 
 ## Contents
 
@@ -202,6 +223,7 @@
 - [cacheable-request](https://github.com/lukechilds/cacheable-request) - Wrap native HTTP requests with RFC compliant cache support.
 - [gotql](https://github.com/khaosdoctor/gotql) - GraphQL request library built on [got](https://github.com/sindresorhus/got).
 - [global-agent](https://github.com/gajus/global-agent) - Global HTTP/HTTPS proxy agent that is configurable using environment variables.
+- [smoke](https://github.com/sinedied/smoke) - File-based HTTP mock server with recording abilities.
 
 ### Debugging / Profiling
 
@@ -331,6 +353,8 @@
 - [Nest](https://github.com/nestjs/nest) - Angular-inspired framework for building efficient and scalable server-side apps.
 - [Zeronode](https://github.com/sfast/zeronode) - Minimal building block for reliable and fault-tolerant microservices.
 - [TypeGraphQL](https://github.com/19majkel94/type-graphql) - Modern framework for creating GraphQL APIs with TypeScript, using classes and decorators.
+- [Tinyhttp](https://github.com/talentlessguy/tinyhttp) - Modern and fast Express-like web framework.
+- [Marble.js](https://github.com/marblejs/marble) - Functional reactive framework for building server-side apps, based on TypeScript and RxJS.
 
 ### Documentation
 
@@ -491,6 +515,7 @@
 - [property-validator](https://github.com/nettofarah/property-validator) - Easy property validation for Express.
 - [schema-inspector](https://github.com/Atinux/schema-inspector) - JSON API sanitization and validation.
 - [ajv](https://github.com/epoberezkin/ajv) - The fastest JSON Schema validator. Supports v5, v6 and v7 proposals.
+- [Superstruct](https://github.com/ianstormtaylor/superstruct) - Simple and composable way to validate data in JavaScript (and TypeScript).
 
 ### Parsing
 
@@ -567,6 +592,7 @@
 	- [Objection.js](https://github.com/Vincit/objection.js) - Lightweight ORM built on the SQL query builder Knex.
 	- [TypeORM](https://github.com/typeorm/typeorm) - ORM for PostgreSQL, MariaDB, MySQL, SQLite, and more.
 	- [MikroORM](https://github.com/mikro-orm/mikro-orm) - TypeScript ORM based on Data Mapper, Unit of Work and Identity Map patterns. Supports MongoDB, PostgreSQL, MySQL and SQLite.
+	- [Prisma](https://github.com/prisma/prisma) - Modern database access (ORM alternative). Auto-generated and type-safe query builder in TypeScript. Supports PostgreSQL, MySQL & SQLite.
 - Query builder
 	- [Knex](https://github.com/tgriesser/knex) - Query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
 - Other
@@ -606,6 +632,7 @@
 - [Playwright](https://github.com/microsoft/playwright) - Headless Chromium, WebKit, and Firefox with a single API.
 - [nve](https://github.com/ehmicky/nve) - Run any command on multiple versions of Node.js locally.
 - [axe-core](https://github.com/dequelabs/axe-core) - Accessibility engine for automated Web UI testing.
+- [testcontainers-node](https://github.com/testcontainers/testcontainers-node) - Provides lightweight, throwaway instances of common databases, Selenium web browsers, or anything else that can run in a Docker container.
 
 ### Security
 
@@ -632,7 +659,7 @@
 ### Authentication
 
 - [Passport](https://github.com/jaredhanson/passport) - Simple, unobtrusive authentication.
-- [Grant](https://github.com/simov/grant) - OAuth middleware for Express, Koa, and Hapi.
+- [Grant](https://github.com/simov/grant) - OAuth providers for Express, Koa, Hapi, Fastify, AWS Lambda, Azure, Google Cloud, Vercel, and many more.
 
 ### Authorization
 
@@ -665,6 +692,7 @@
 - [nodeenv](https://github.com/ekalinin/nodeenv) - Node.js virtual environment compatible to Python's virtualenv.
 - [nvm for Windows](https://github.com/coreybutler/nvm-windows) - Version management for Windows.
 - [nodenv](https://github.com/nodenv/nodenv) - Version manager that is similar to Ruby's rbenv. It supports auto version switching.
+- [fnm](https://github.com/Schniz/fnm) - Cross-platform Node.js version manager built in Rust.
 
 ### Natural language processing
 
@@ -687,6 +715,7 @@
 ### Automation
 
 - [robotjs](https://github.com/octalmage/robotjs) - Desktop Automation: control the mouse, keyboard and read the screen.
+- [nut.js](https://github.com/nut-tree/nut.js) - Cross-platform native GUI automation / testing framework with image matching capabilities which integrates with Jest.
 
 ### AST
 
@@ -710,6 +739,7 @@
 - [Strapi](https://github.com/strapi/strapi) - Content Management Framework (headless-CMS) to build powerful APIs.
 - [Tipe](https://github.com/tipeio/tipe) - Developer-first content management system with GraphQL and REST API from a schema file.
 - [Factor](https://github.com/fiction-com/factor) - Vue.js dashboard framework and headless CMS.
+- [AdminBro](https://github.com/SoftwareBrothers/admin-bro) - Auto-generated admin panel with CRUD for all your resources.
 
 ### Forum
 
@@ -780,6 +810,7 @@
 - [genepi](https://github.com/Geode-solutions/genepi) - Automatically generate a native Node.js addon from C++ code.
 - [husky](https://github.com/typicode/husky) - Create Git hook scripts.
 - [patch-package](https://github.com/ds300/patch-package) - Make and preserve fixes to npm dependencies.
+- [editly](https://github.com/mifi/editly) - Declarative video editing API.
 
 ## Resources
 
@@ -866,7 +897,6 @@
 - [OctoLinker](https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp) - Chrome extension that linkifies dependencies in package.json, .js, .jsx, .coffee and .md files on GitHub.
 - [npm-hub](https://chrome.google.com/webstore/detail/npm-hub/kbbbjimdjbjclaebffknlabpogocablj) - Chrome extension to display npm dependencies at the bottom of a repo's readme.
 - [RunKit](http://blog.tonicdev.com/2015/09/30/embedded-tonic.html) - Embed a Node.js environment on any website.
-- [RequireBin](http://requirebin.com) - Shareable JavaScript programs powered by npm and browserify.
 - [github-npm-stats](https://chrome.google.com/webstore/detail/github-npm-stats/oomfflokggoffaiagenekchfnpighcef) - Chrome extension that displays npm download stats on GitHub.
 - [npm semver calculator](https://semver.npmjs.com) - Visually explore what versions of a package a semver range matches.
 - [CodeSandbox](https://codesandbox.io/s/node-http-server-node) - Online IDE and prototyping.
